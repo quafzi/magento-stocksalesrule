@@ -1,0 +1,15 @@
+{
+    "name": "quafzi/magento-stocksalessule",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "description": "Magento module to use current stock for sales rules",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    },
+    "authors":[
+        {
+            "name":"Thomas Birke",
+            "email":"magento@netextreme.de"
+        }
+    ]
+}

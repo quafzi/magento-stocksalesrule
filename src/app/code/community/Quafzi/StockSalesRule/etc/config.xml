@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!--
+ * Extend Mage_SalesRule_Model_Rule_Condition_Product to allow condition based on product stock
+ *
+ * @category   Mage
+ * @package    Mage_Customer
+ * @author     Thomas Birke <tbirke@netextreme.de>
+-->
+<config>
+    <modules>
+        <Quafzi_StockSalesRule>
+            <version>1.0.0</version>
+        </Quafzi_StockSalesRule>
+    </modules>
+    <global>
+        <models>
+            <quafzi_stocksalesrule>
+                <class>Quafzi_StockSalesRule_Model</class>
+            </quafzi_stocksalesrule>
+            <salesrule>
+                <rewrite>
+                    <rule_condition_product>Quafzi_StockSalesRule_Model_Rule_Condition_Product</rule_condition_product>
+                </rewrite>
+            </salesrule>
+        </models>
+    </global>
+</config>
