@@ -32,6 +32,16 @@ Uninstallation
 1. Remove all extension files from your Magento installation
 2. Clear the cache.
 
+Support
+-------
+If you encounter any problems or bugs, please create an issue on
+[GitHub](https://github.com/quafzi/magento-stocksalesrule/issues).
+
+Contribution
+------------
+Any contribution is highly welcome. The best possibility to provide any code is
+to open a [pull request on GitHub](https://help.github.com/articles/using-pull-requests).
+
 Developer
 ---------
 
